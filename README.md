@@ -1,134 +1,150 @@
 # 📊 Matplotlib Learning Journey
 
-Welcome to my **Matplotlib Learning Repository**! 🚀
+Welcome to my **Matplotlib Learning Repository**. This repository contains my practice programs while learning data visualization using Python.
 
-This repository contains my complete learning journey, practice programs, and exercises while mastering **Matplotlib** using Python.
+## 🚀 About
 
----
-
-# 👋 About Me
-
-Hi, I'm **Kiran L.M.**
-
-* 🎓 BCA Student
-* 🐍 Python Developer
-* 📊 NumPy Completed
-* 📈 Learning Matplotlib
-* 🤖 Aspiring AI/ML Engineer
+I'm learning **Matplotlib** step by step as part of my Data Science and AI/ML journey. This repository includes beginner to intermediate plotting examples and practice exercises.
 
 ---
 
-# 📚 Learning Roadmap
+## 📚 Topics Covered
 
-## ✅ Completed
+### ✅ Basic Plotting
 
-* Python Basics
-* Object-Oriented Programming (OOP)
-* NumPy
-* Pandas
+* Line Plot
+* Plot Title
+* X-axis Label
+* Y-axis Label
+* `plt.show()`
+
+### ✅ Figure Customization
+
+* `figsize`
+* Grid (`plt.grid()`)
+* Different Line Styles
+* Line Width
+* Colors
+* Markers
+
+### ✅ Working with Data
+
+* Lists as Data
+* Categorical Data
+* Numerical Data
+
+### ✅ Axis Customization
+
+* `xticks()`
+* `yticks()`
+* Tick Rotation
+* Tick Color
+* Tick Size
+
+### ✅ Legends
+
+* `label`
+* `plt.legend()`
+* Legend Position
+
+### ✅ Multiple Plots
+
+* Plotting Multiple Lines
+* Comparing Different Datasets
 
 ---
 
-## 🚀 Currently Learning
+## 💻 Practice Examples
 
-### Matplotlib
-
-### Basic Concepts
-
-* ✅ `plt.plot()`
-* ✅ `plt.show()`
-* ✅ `plt.title()`
-* ✅ `plt.xlabel()`
-* ✅ `plt.ylabel()`
-* ✅ `plt.grid()`
+* Monthly Sales Analysis
+* Monthly Income vs Expense
+* Student Marks
+* Daily Temperature
+* Rainfall Analysis
+* City Pollution Levels
+* Subject-wise Marks
 
 ---
 
-## 📅 Upcoming Topics
+## 🛠 Technologies Used
 
-* ⏳ `plt.legend()`
-* ⏳ Colors
-* ⏳ Line Styles
-* ⏳ Markers
-* ⏳ Figure Size
-* ⏳ Bar Chart
-* ⏳ Scatter Plot
-* ⏳ Pie Chart
-* ⏳ Histograms
-* ⏳ Subplots
-* ⏳ Saving Figures
-* ⏳ Real-world Visualization Projects
+* Python 3
+* Matplotlib
+* VS Code
 
 ---
 
-# 📂 Repository Structure
+## 📂 Repository Structure
 
 ```text
-matplotlib-learning/
+Matplotlib/
 │
-├── README.md
-├── lesson_01_plot.py
-├── lesson_02_title_labels.py
-├── lesson_03_grid.py
-├── practice/
-│   ├── practice_set_01.py
-│   ├── practice_set_02.py
-│   └── practice_set_03.py
-│
-└── projects/
+├── Basic_Plots/
+├── Labels_and_Title/
+├── Grid/
+├── Legends/
+├── Axis_Customization/
+├── Multiple_Plots/
+├── Practice_Programs/
+└── README.md
 ```
 
 ---
 
-# 🎯 Goal
+## 🎯 Learning Goal
 
-My goal is to master **Matplotlib** from beginner to advanced level and build beautiful, meaningful data visualizations for Data Science and Machine Learning projects.
-
----
-
-# 🛠️ Technologies Used
-
-* Python
-* Matplotlib
-* VS Code
-* Git
-* GitHub
-
----
-
-# 📈 Learning Progress
-
-| Topic            | Status         |
-| ---------------- | -------------- |
-| Python           | ✅ Completed    |
-| NumPy            | ✅ Completed    |
-| Pandas           | ✅ Completed    |
-| Matplotlib       | 🚀 In Progress |
-| Seaborn          | ⏳ Upcoming     |
-| Statistics       | ⏳ Upcoming     |
-| Machine Learning | ⏳ Upcoming     |
-| Deep Learning    | ⏳ Upcoming     |
-
----
-
-# ⭐ Repository Purpose
-
-This repository is created to:
-
-* Practice Matplotlib daily.
 * Build strong visualization skills.
-* Track my learning progress.
-* Prepare for Data Science and AI/ML projects.
-* Help others who are learning Matplotlib.
+* Prepare for Pandas and Seaborn.
+* Create professional charts for Machine Learning projects.
+* Improve Python programming through visualization practice.
 
 ---
 
-## 📬 Connect With Me
+## 📈 Progress
 
-* GitHub: **kiranaiml**
+* ✅ Basic Plotting
+* ✅ Titles & Labels
+* ✅ Grid
+* ✅ Figure Size
+* ✅ xticks & yticks
+* ✅ Legends
+* ✅ Multiple Line Plots
+* ⏳ Bar Charts
+* ⏳ Scatter Plots
+* ⏳ Histograms
+* ⏳ Pie Charts
+* ⏳ Subplots
+* ⏳ Saving Figures
+* ⏳ Real Dataset Visualizations
 
 ---
 
-### ⭐ Thank you for visiting my repository!
+## 🌱 Current Learning Path
 
-If you find this repository helpful, consider giving it a **⭐ Star**.
+```
+Python
+   ↓
+NumPy ✅
+   ↓
+Pandas ✅
+   ↓
+Matplotlib 🚀
+   ↓
+Seaborn
+   ↓
+Statistics
+   ↓
+Machine Learning
+   ↓
+Deep Learning
+```
+
+---
+
+## 👨‍💻 Author
+
+**Kiran**
+
+Learning Python, Data Science, and AI/ML one step at a time.
+
+⭐ If you find this repository useful, feel free to star it!
