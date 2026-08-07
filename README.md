@@ -1,150 +1,226 @@
-# 📊 Matplotlib Learning Journey
+# 📊 Matplotlib — Data Visualization with Python
 
-Welcome to my **Matplotlib Learning Repository**. This repository contains my practice programs while learning data visualization using Python.
+A structured, hands-on journey to mastering **Matplotlib**, Python's core visualization library.
+This repository contains practical examples, experiments, and exercises focused on building clear and meaningful data visualizations.
 
-## 🚀 About
+---
 
-I'm learning **Matplotlib** step by step as part of my Data Science and AI/ML journey. This repository includes beginner to intermediate plotting examples and practice exercises.
+## 🎯 Learning Objective
+
+The goal of this repository is to develop a strong foundation in **data visualization with Python** and learn how to transform datasets into meaningful visual insights.
+
+Matplotlib is being learned as part of my broader **Data Science / AI & ML learning journey**.
+
+---
+
+## 🛠️ Technologies
+
+* **Python**
+* **Matplotlib**
+* **VS Code**
+* **Jupyter Notebook** *(when required)*
 
 ---
 
 ## 📚 Topics Covered
 
-### ✅ Basic Plotting
+### Basic Plotting
 
-* Line Plot
-* Plot Title
-* X-axis Label
-* Y-axis Label
+* `plt.plot()`
 * `plt.show()`
-
-### ✅ Figure Customization
-
+* `plt.figure()`
 * `figsize`
-* Grid (`plt.grid()`)
-* Different Line Styles
-* Line Width
-* Colors
-* Markers
 
-### ✅ Working with Data
+### Chart Customization
 
-* Lists as Data
-* Categorical Data
-* Numerical Data
+* `plt.title()`
+* `plt.xlabel()`
+* `plt.ylabel()`
+* `plt.grid()`
+* `plt.xticks()`
+* `plt.yticks()`
 
-### ✅ Axis Customization
+### Line Customization
 
-* `xticks()`
-* `yticks()`
-* Tick Rotation
-* Tick Color
-* Tick Size
+* `linewidth`
+* `markersize`
+* Line styling
+* Multiple lines
 
-### ✅ Legends
+### Legends
 
 * `label`
 * `plt.legend()`
-* Legend Position
 
-### ✅ Multiple Plots
+### Bar Charts
 
-* Plotting Multiple Lines
-* Comparing Different Datasets
+* `plt.bar()`
+* Bar colors
+* Category-based visualization
+* Comparing values using bars
 
----
+### Axis Control
 
-## 💻 Practice Examples
-
-* Monthly Sales Analysis
-* Monthly Income vs Expense
-* Student Marks
-* Daily Temperature
-* Rainfall Analysis
-* City Pollution Levels
-* Subject-wise Marks
+* `plt.xlim()`
+* `plt.ylim()`
+* Controlling the visible axis range
+* Understanding categorical vs numerical axes
 
 ---
 
-## 🛠 Technologies Used
+## 📈 Current Progress
 
-* Python 3
-* Matplotlib
-* VS Code
+| Topic                  | Status      |
+| ---------------------- | ----------- |
+| Basic Plotting         | ✅ Completed |
+| Titles & Labels        | ✅ Completed |
+| Grid                   | ✅ Completed |
+| X/Y Ticks              | ✅ Completed |
+| Figure Size            | ✅ Completed |
+| Line Customization     | ✅ Completed |
+| Multiple Lines         | ✅ Completed |
+| Legends                | ✅ Completed |
+| Bar Charts             | ✅ Completed |
+| X-axis Limits          | ✅ Completed |
+| Y-axis Limits          | ✅ Completed |
+| Subplots               | 🔄 Next     |
+| Pie Charts             | ⏳ Upcoming  |
+| Scatter Plots          | ⏳ Upcoming  |
+| Histograms             | ⏳ Upcoming  |
+| Advanced Customization | ⏳ Upcoming  |
+| Mini Projects          | ⏳ Upcoming  |
 
 ---
 
-## 📂 Repository Structure
+## 💻 Example
+
+```python
+import matplotlib.pyplot as plt
+
+months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"]
+
+sales = [12000, 15000, 13500, 18000, 21000, 19500, 23000, 26000]
+
+plt.figure(figsize=(10, 6))
+
+plt.title("2026 Sales")
+plt.xlabel("Month")
+plt.ylabel("Monthly Sales")
+
+plt.bar(months, sales, label="Sales")
+
+plt.legend()
+
+plt.xlim(1, 6)
+plt.ylim(0, 30000)
+
+plt.show()
+```
+
+---
+
+## 🧠 Learning Approach
+
+Instead of only following tutorials, I practice each concept by:
+
+1. Learning the function
+2. Writing the code independently
+3. Testing it with different datasets
+4. Identifying and fixing errors
+5. Understanding how each parameter affects the visualization
+6. Applying the concept in practical examples
+
+The focus is on **understanding the logic behind visualization**, not simply memorizing syntax.
+
+---
+
+## 🗂️ Repository Structure
 
 ```text
 Matplotlib/
 │
-├── Basic_Plots/
-├── Labels_and_Title/
-├── Grid/
-├── Legends/
+├── Basics/
+├── Line_Plots/
+├── Bar_Charts/
 ├── Axis_Customization/
-├── Multiple_Plots/
-├── Practice_Programs/
+├── Subplots/
+├── Pie_Charts/
+├── Scatter_Plots/
+├── Histograms/
+├── Projects/
 └── README.md
 ```
 
----
-
-## 🎯 Learning Goal
-
-* Build strong visualization skills.
-* Prepare for Pandas and Seaborn.
-* Create professional charts for Machine Learning projects.
-* Improve Python programming through visualization practice.
+*The folder structure will evolve as new concepts are added.*
 
 ---
 
-## 📈 Progress
+## 🗺️ Roadmap
 
-* ✅ Basic Plotting
-* ✅ Titles & Labels
-* ✅ Grid
-* ✅ Figure Size
-* ✅ xticks & yticks
-* ✅ Legends
-* ✅ Multiple Line Plots
-* ⏳ Bar Charts
-* ⏳ Scatter Plots
-* ⏳ Histograms
-* ⏳ Pie Charts
-* ⏳ Subplots
-* ⏳ Saving Figures
-* ⏳ Real Dataset Visualizations
+### Phase 1 — Fundamentals
+
+* [x] Basic plots
+* [x] Titles and labels
+* [x] Grid
+* [x] Figure size
+* [x] Ticks
+
+### Phase 2 — Customization
+
+* [x] Line customization
+* [x] Legends
+* [x] Multiple plots
+* [x] Axis limits
+
+### Phase 3 — Chart Types
+
+* [x] Bar charts
+* [ ] Pie charts
+* [ ] Scatter plots
+* [ ] Histograms
+* [ ] Box plots
+
+### Phase 4 — Advanced Visualization
+
+* [ ] Subplots
+* [ ] Advanced styling
+* [ ] Annotations
+* [ ] Figure saving
+* [ ] Advanced axis customization
+
+### Phase 5 — Projects
+
+* [ ] Sales analysis
+* [ ] Expense analysis
+* [ ] Temperature analysis
+* [ ] Business dashboard
+* [ ] Data analysis projects
 
 ---
 
-## 🌱 Current Learning Path
+## 🚀 Long-Term Goal
 
-```
-Python
-   ↓
-NumPy ✅
-   ↓
-Pandas ✅
-   ↓
-Matplotlib 🚀
-   ↓
-Seaborn
-   ↓
-Statistics
-   ↓
-Machine Learning
-   ↓
-Deep Learning
-```
+Build strong visualization skills that can be applied to:
+
+* Data Analysis
+* Exploratory Data Analysis (EDA)
+* Machine Learning
+* AI/ML Projects
+* Business Analytics
+* Data Science
 
 ---
 
-## 👨‍💻 Author
+## 📌 Status
 
-**Kiran**
+**Currently learning:** Matplotlib fundamentals and chart customization
 
-Learning Python, Data Science, and AI/ML one step at a time.
+**Next:** `subplot()` and multiple charts in a single figure.
 
-⭐ If you find this repository useful, feel free to star it!
+---
+
+### 👨‍💻 Author
+
+**Kiran L.M**
+
+Aspiring **AI/ML Engineer** | Python Developer | Data Science Enthusiast
