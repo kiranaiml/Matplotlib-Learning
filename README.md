@@ -1,226 +1,214 @@
-# 📊 Matplotlib — Data Visualization with Python
+# 📊 Matplotlib Learning
 
-A structured, hands-on journey to mastering **Matplotlib**, Python's core visualization library.
-This repository contains practical examples, experiments, and exercises focused on building clear and meaningful data visualizations.
+This repository contains my learning and practice work with **Matplotlib**, a Python library used for data visualization.
 
----
+## 🚀 What is Matplotlib?
 
-## 🎯 Learning Objective
+Matplotlib is a Python library used to create visualizations such as:
 
-The goal of this repository is to develop a strong foundation in **data visualization with Python** and learn how to transform datasets into meaningful visual insights.
+* 📈 Line Charts
+* 📊 Bar Charts
+* 🥧 Pie Charts
+* 📊 Histograms
+* 🎯 Scatter Plots
 
-Matplotlib is being learned as part of my broader **Data Science / AI & ML learning journey**.
-
----
-
-## 🛠️ Technologies
-
-* **Python**
-* **Matplotlib**
-* **VS Code**
-* **Jupyter Notebook** *(when required)*
+It helps convert data into visual charts that are easier to understand and analyze.
 
 ---
 
 ## 📚 Topics Covered
 
-### Basic Plotting
+### 1. Basic Plotting
 
 * `plt.plot()`
-* `plt.show()`
 * `plt.figure()`
-* `figsize`
+* `plt.show()`
 
-### Chart Customization
+### 2. Chart Customization
 
 * `plt.title()`
 * `plt.xlabel()`
 * `plt.ylabel()`
 * `plt.grid()`
-* `plt.xticks()`
-* `plt.yticks()`
-
-### Line Customization
-
+* `plt.legend()`
+* `figsize`
+* `color`
 * `linewidth`
 * `markersize`
-* Line styling
-* Multiple lines
+* `linestyle`
+* `marker`
 
-### Legends
+### 3. Axis Customization
 
-* `label`
-* `plt.legend()`
-
-### Bar Charts
-
-* `plt.bar()`
-* Bar colors
-* Category-based visualization
-* Comparing values using bars
-
-### Axis Control
-
+* `plt.xticks()`
+* `plt.yticks()`
 * `plt.xlim()`
 * `plt.ylim()`
-* Controlling the visible axis range
-* Understanding categorical vs numerical axes
 
----
+### 4. Bar Chart
 
-## 📈 Current Progress
-
-| Topic                  | Status      |
-| ---------------------- | ----------- |
-| Basic Plotting         | ✅ Completed |
-| Titles & Labels        | ✅ Completed |
-| Grid                   | ✅ Completed |
-| X/Y Ticks              | ✅ Completed |
-| Figure Size            | ✅ Completed |
-| Line Customization     | ✅ Completed |
-| Multiple Lines         | ✅ Completed |
-| Legends                | ✅ Completed |
-| Bar Charts             | ✅ Completed |
-| X-axis Limits          | ✅ Completed |
-| Y-axis Limits          | ✅ Completed |
-| Subplots               | 🔄 Next     |
-| Pie Charts             | ⏳ Upcoming  |
-| Scatter Plots          | ⏳ Upcoming  |
-| Histograms             | ⏳ Upcoming  |
-| Advanced Customization | ⏳ Upcoming  |
-| Mini Projects          | ⏳ Upcoming  |
-
----
-
-## 💻 Example
+Learned how to compare categorical data using:
 
 ```python
-import matplotlib.pyplot as plt
+plt.bar()
+```
 
-months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"]
+Also practiced:
 
-sales = [12000, 15000, 13500, 18000, 21000, 19500, 23000, 26000]
+* Colors
+* Edge colors
+* Labels
+* Legends
+* Grid
+* Titles
 
-plt.figure(figsize=(10, 6))
+### 5. Pie Chart
 
-plt.title("2026 Sales")
-plt.xlabel("Month")
-plt.ylabel("Monthly Sales")
+Learned how to represent parts of a whole using:
 
-plt.bar(months, sales, label="Sales")
+```python
+plt.pie()
+```
 
-plt.legend()
+Practiced:
 
-plt.xlim(1, 6)
-plt.ylim(0, 30000)
+* `labels`
+* `autopct`
+* `colors`
 
-plt.show()
+Example:
+
+```python
+plt.pie(
+    amount,
+    labels=categories,
+    autopct="%1.1f%%"
+)
+```
+
+### 6. Histogram
+
+Learned how to visualize the distribution of numerical data using:
+
+```python
+plt.hist()
+```
+
+Practiced:
+
+* `bins`
+* `color`
+* `edgecolor`
+* Titles
+* Axis labels
+
+Example:
+
+```python
+plt.hist(
+    heights,
+    bins=10,
+    color="orange",
+    edgecolor="black"
+)
+```
+
+### 7. Scatter Plot
+
+Learned how to visualize the relationship between two numerical variables using:
+
+```python
+plt.scatter()
+```
+
+Practiced:
+
+* Multiple datasets
+* Colors
+* Markers
+* Labels
+* Legends
+* Grid
+
+Example:
+
+```python
+plt.scatter(
+    hours,
+    marks,
+    color="blue",
+    marker="*",
+    label="Class A"
+)
 ```
 
 ---
 
-## 🧠 Learning Approach
+## 🧠 What I Have Learned
 
-Instead of only following tutorials, I practice each concept by:
+I can now:
 
-1. Learning the function
-2. Writing the code independently
-3. Testing it with different datasets
-4. Identifying and fixing errors
-5. Understanding how each parameter affects the visualization
-6. Applying the concept in practical examples
-
-The focus is on **understanding the logic behind visualization**, not simply memorizing syntax.
+* Create different types of charts
+* Compare categorical data
+* Visualize numerical distributions
+* Observe relationships between variables
+* Customize charts
+* Add titles and axis labels
+* Add legends and grids
+* Customize colors and markers
+* Compare multiple datasets in a scatter plot
 
 ---
 
-## 🗂️ Repository Structure
+## 🛠️ Technologies Used
+
+* Python 🐍
+* Matplotlib 📊
+
+Install Matplotlib:
+
+```bash
+pip install matplotlib
+```
+
+---
+
+## 📂 Repository Structure
 
 ```text
 Matplotlib/
 │
-├── Basics/
-├── Line_Plots/
+├── Basic_Plots/
+├── Line_Charts/
 ├── Bar_Charts/
-├── Axis_Customization/
-├── Subplots/
 ├── Pie_Charts/
-├── Scatter_Plots/
 ├── Histograms/
-├── Projects/
+├── Scatter_Plots/
 └── README.md
 ```
 
-*The folder structure will evolve as new concepts are added.*
+---
+
+## 🎯 Next Topics
+
+* Subplots
+* Multiple plots in one figure
+* Advanced customization
+* Working with real-world datasets
+* Data visualization projects
 
 ---
 
-## 🗺️ Roadmap
+## 📈 Learning Progress
 
-### Phase 1 — Fundamentals
+**Matplotlib Basics → Completed ✅**
 
-* [x] Basic plots
-* [x] Titles and labels
-* [x] Grid
-* [x] Figure size
-* [x] Ticks
-
-### Phase 2 — Customization
-
-* [x] Line customization
-* [x] Legends
-* [x] Multiple plots
-* [x] Axis limits
-
-### Phase 3 — Chart Types
-
-* [x] Bar charts
-* [ ] Pie charts
-* [ ] Scatter plots
-* [ ] Histograms
-* [ ] Box plots
-
-### Phase 4 — Advanced Visualization
-
-* [ ] Subplots
-* [ ] Advanced styling
-* [ ] Annotations
-* [ ] Figure saving
-* [ ] Advanced axis customization
-
-### Phase 5 — Projects
-
-* [ ] Sales analysis
-* [ ] Expense analysis
-* [ ] Temperature analysis
-* [ ] Business dashboard
-* [ ] Data analysis projects
+**Current focus:** Building stronger visualization skills through practice and projects.
 
 ---
 
-## 🚀 Long-Term Goal
+## 👨‍💻 About
 
-Build strong visualization skills that can be applied to:
+This repository documents my journey of learning **Python Data Visualization with Matplotlib** as part of my preparation for **AI/ML**.
 
-* Data Analysis
-* Exploratory Data Analysis (EDA)
-* Machine Learning
-* AI/ML Projects
-* Business Analytics
-* Data Science
-
----
-
-## 📌 Status
-
-**Currently learning:** Matplotlib fundamentals and chart customization
-
-**Next:** `subplot()` and multiple charts in a single figure.
-
----
-
-### 👨‍💻 Author
-
-**Kiran L.M**
-
-Aspiring **AI/ML Engineer** | Python Developer | Data Science Enthusiast
+> Learn → Practice → Build → Improve 🚀
