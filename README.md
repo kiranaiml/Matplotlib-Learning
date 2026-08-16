@@ -1,174 +1,137 @@
-# 📊 Matplotlib Learning
+# 📊 Matplotlib — Learning & Practice
 
 This repository contains my learning and practice work with **Matplotlib**, a Python library used for data visualization.
 
-## 🚀 What is Matplotlib?
-
-Matplotlib is a Python library used to create visualizations such as:
-
-* 📈 Line Charts
-* 📊 Bar Charts
-* 🥧 Pie Charts
-* 📊 Histograms
-* 🎯 Scatter Plots
-
-It helps convert data into visual charts that are easier to understand and analyze.
+I am learning Matplotlib as part of my journey toward becoming an **AI/ML Engineer**.
 
 ---
 
 ## 📚 Topics Covered
 
-### 1. Basic Plotting
+### 🔹 Matplotlib Basics
+
+* Installing Matplotlib
+* Importing `matplotlib.pyplot`
+* Creating basic plots
+* `plt.show()`
+* Figure size using `figsize`
+
+### 🔹 Line Plots
 
 * `plt.plot()`
-* `plt.figure()`
-* `plt.show()`
+* Titles
+* X-axis labels
+* Y-axis labels
+* Grid
+* Legends
+* Markers
+* Line styles
+* Line width
+* Marker size
 
-### 2. Chart Customization
-
-* `plt.title()`
-* `plt.xlabel()`
-* `plt.ylabel()`
-* `plt.grid()`
-* `plt.legend()`
-* `figsize`
-* `color`
-* `linewidth`
-* `markersize`
-* `linestyle`
-* `marker`
-
-### 3. Axis Customization
+### 🔹 Axis Customization
 
 * `plt.xticks()`
 * `plt.yticks()`
-* `plt.xlim()`
-* `plt.ylim()`
-
-### 4. Bar Chart
-
-Learned how to compare categorical data using:
-
-```python
-plt.bar()
-```
-
-Also practiced:
-
-* Colors
-* Edge colors
-* Labels
-* Legends
-* Grid
-* Titles
-
-### 5. Pie Chart
-
-Learned how to represent parts of a whole using:
-
-```python
-plt.pie()
-```
-
-Practiced:
-
-* `labels`
-* `autopct`
-* `colors`
-
-Example:
-
-```python
-plt.pie(
-    amount,
-    labels=categories,
-    autopct="%1.1f%%"
-)
-```
-
-### 6. Histogram
-
-Learned how to visualize the distribution of numerical data using:
-
-```python
-plt.hist()
-```
-
-Practiced:
-
-* `bins`
-* `color`
-* `edgecolor`
-* Titles
+* Custom axis values
 * Axis labels
 
-Example:
+### 🔹 Bar Charts
 
-```python
-plt.hist(
-    heights,
-    bins=10,
-    color="orange",
-    edgecolor="black"
-)
-```
+* Creating bar charts
+* Comparing categories
+* Customizing bars
 
-### 7. Scatter Plot
+### 🔹 Pie Charts
 
-Learned how to visualize the relationship between two numerical variables using:
-
-```python
-plt.scatter()
-```
-
-Practiced:
-
-* Multiple datasets
-* Colors
-* Markers
+* Creating pie charts
 * Labels
-* Legends
-* Grid
+* Percentages
+* Category comparison
 
-Example:
+### 🔹 Histograms
 
-```python
-plt.scatter(
-    hours,
-    marks,
-    color="blue",
-    marker="*",
-    label="Class A"
-)
-```
+* Understanding data distribution
+* Creating histograms
+* Working with bins
+
+### 🔹 Scatter Plots
+
+* Creating scatter plots
+* Comparing two numerical variables
+* Understanding relationships between variables
+
+### 🔹 Multiple Data Visualizations
+
+* Comparing multiple datasets
+* Multiple lines on one plot
+* Income vs Expense visualization
+* Classroom comparisons
 
 ---
 
-## 🧠 What I Have Learned
+## 📊 Practice Projects
 
-I can now:
+I practiced Matplotlib using different datasets and examples:
 
-* Create different types of charts
-* Compare categorical data
-* Visualize numerical distributions
-* Observe relationships between variables
-* Customize charts
-* Add titles and axis labels
-* Add legends and grids
-* Customize colors and markers
-* Compare multiple datasets in a scatter plot
+* 📈 Monthly Sales Analysis
+* 💰 Monthly Income vs Expense
+* 📚 Subject Marks Comparison
+* 🌡️ Temperature Analysis
+* 🌧️ Monthly Rainfall Analysis
+* 🏙️ City Pollution Comparison
+* 📏 Height Distribution
+* 📖 Study Hours vs Marks
+* 🏫 Classroom Performance Comparison
 
 ---
 
 ## 🛠️ Technologies Used
 
-* Python 🐍
-* Matplotlib 📊
+* **Python**
+* **Matplotlib**
+* **Jupyter Notebook / VS Code**
 
-Install Matplotlib:
+---
 
-```bash
-pip install matplotlib
+## 🎯 Why I Am Learning Matplotlib
+
+Matplotlib is an important part of my **Data Science and AI/ML learning path**.
+
+I use it to:
+
+* Understand datasets visually
+* Identify patterns and trends
+* Analyze distributions
+* Compare variables
+* Detect potential outliers
+* Visualize relationships between features
+* Present machine learning results
+
+---
+
+## 🧠 AI/ML Learning Roadmap
+
+My current learning path:
+
+```text
+Python
+   ↓
+NumPy
+   ↓
+Pandas
+   ↓
+Matplotlib
+   ↓
+Statistics
+   ↓
+Machine Learning
+   ↓
+Deep Learning
+   ↓
+PyTorch
+   ↓
+LLMs / Generative AI
 ```
 
 ---
@@ -178,37 +141,45 @@ pip install matplotlib
 ```text
 Matplotlib/
 │
-├── Basic_Plots/
-├── Line_Charts/
-├── Bar_Charts/
-├── Pie_Charts/
-├── Histograms/
-├── Scatter_Plots/
+├── Basics/
+├── Line_Plot/
+├── Bar_Chart/
+├── Pie_Chart/
+├── Histogram/
+├── Scatter_Plot/
+├── Multiple_Plots/
 └── README.md
 ```
 
 ---
 
-## 🎯 Next Topics
-
-* Subplots
-* Multiple plots in one figure
-* Advanced customization
-* Working with real-world datasets
-* Data visualization projects
-
----
-
 ## 📈 Learning Progress
 
-**Matplotlib Basics → Completed ✅**
-
-**Current focus:** Building stronger visualization skills through practice and projects.
+* [x] Matplotlib Basics
+* [x] Line Plots
+* [x] Bar Charts
+* [x] Pie Charts
+* [x] Histograms
+* [x] Scatter Plots
+* [x] Multiple Data Visualizations
+* [x] Basic Plot Customization
 
 ---
 
-## 👨‍💻 About
+## 🚀 Next Step
 
-This repository documents my journey of learning **Python Data Visualization with Matplotlib** as part of my preparation for **AI/ML**.
+After completing Matplotlib, I will move toward **Statistics and Machine Learning** to build a stronger foundation for AI/ML.
 
-> Learn → Practice → Build → Improve 🚀
+---
+
+## 👨‍💻 About Me
+
+**Kiran LM**
+
+Aspiring **AI/ML Engineer** focused on building practical skills in Python, Data Science, Machine Learning, and Artificial Intelligence.
+
+GitHub: **[kiranaiml](https://github.com/kiranaiml)**
+
+---
+
+⭐ This repository documents my learning progress and practical work with Matplotlib.
